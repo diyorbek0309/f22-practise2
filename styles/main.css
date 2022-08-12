@@ -57,7 +57,74 @@ nav {
 }
 
 .logo img {
-    width: 4rem
+  width: 4rem;
 }
 
 /* Navbar CSS tugadi */
+
+/* Header CSS boshlandi */
+
+header {
+  display: flex;
+  padding: 1.5rem 2rem 1.5rem 12rem;
+  align-items: center;
+  background: linear-gradient(rgba(152, 195, 232, 0), rgba(152, 195, 232, 0.5));
+}
+
+header .right img {
+  width: 35rem;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #1f3f68;
+  letter-spacing: 4%;
+  line-height: 120%;
+}
+
+header p {
+  width: 80%;
+  margin: 2rem 0 4rem 0;
+  color: #1f3f68;
+  opacity: 0.6;
+  line-height: 150%;
+}
+
+/* Header CSS tugadi */
+
+/* Main CSS boshlandi */
+
+.about {
+  padding: 12rem 8rem 10rem 15rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_left {
+  width: 50%;
+}
+
+.about_right {
+  width: 40%;
+}
+
+.about_left .about_item {
+  width: 60%;
+}
+
+.about_left .title {
+  width: 50%;
+  margin-bottom: 11rem;
+}
+
+.about_item {
+  padding: 3rem;
+  box-shadow: 0 4px 1rem rgba(0, 0, 0, 0.25);
+  border-radius: 0.5rem;
+}
+
+.about_right .about_item:first-child {
+  margin-bottom: 6rem;
+}
+
+/* Main CSS tugadi */
