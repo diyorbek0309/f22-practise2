@@ -1,0 +1,40 @@
+
+.ellipse {
+  width: 2rem;
+  height: 2rem;
+  top:48px;
+  position: absolute;
+  left: 83px;
+  background: #316099;
+  border-radius: 50%;
+}
+  .ellipse2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  top:48px;
+  left: 99px;
+  background: #FFFFFF;
+  border: 2px solid #316099;
+  border-radius: 50%;
+  }
+
+.ellipse2 p {
+  position: absolute;
+  width: 14px;
+  height: 28px;
+  left: 9px;
+  top:-1px;
+  color: #316099;
+  font-family: Gilroy;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  font-weight:bolder;
+  }
+.blog img {
+  position: absolute;
+  top: 48px;
+  right: 87px;
+}
