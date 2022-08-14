@@ -54,7 +54,7 @@
   src: url(../assets/fonts/Galien\ Regular.ttf);
 }
 
-header h3 {
+section h3 {
   font-family: Galien, sans-serif;
   line-height: 25px;
   letter-spacing: 2px;
@@ -69,7 +69,7 @@ main {
   height: 65.3rem;
 }
 
-.blog {
+.blog1 {
   margin: 2rem;
 }
 
