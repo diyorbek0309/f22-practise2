@@ -7,35 +7,6 @@
   font-family: Gilroy;
   src: url("../assets/fonts/Gilroy-Light.otf");
 }
-.ellipse, .ellipse2 {
-  width: 2rem;
-  height: 2rem;
-  position: absolute;
-  top:48px;
-  border-radius: 50%;
-}
-
-.ellipse {
-  left: 83px;
-  background: #316099;
-}
-  .ellipse2 {
-  left: 99px;
-  background: #FFFFFF;
-  border: 2px solid #316099;
- }
-
-.ellipse2 p {
-  margin: auto;
-  width: 14px;
-  height: 28px;
-  color: #316099;
-  font-family: Gilroy, sans-serif;
-  font-size: 20px;
-  line-height: 28px;
-  letter-spacing: 0.04em;
-  font-weight:bolder;
-  }
 
 .vector_menu li {
   border-top: 3px solid #316099;
@@ -50,10 +21,15 @@
   right: 87px;
 }
 
+.logo img {
+margin-left: 83px;
+margin-top: 48px;
+}
+
 .section_header{
   background-image: url(../assets/images/Mask_Group.svg);
   height: 12rem;
-  margin-top: 130px;
+  margin-top: 48px;
   color: #fff;
   text-align: center;
   padding-top: 31px;
