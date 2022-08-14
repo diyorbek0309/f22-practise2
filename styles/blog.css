@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 @font-face {
   font-family: Gilroy;
   src: url("../assets/fonts/Gilroy-Light.otf");
@@ -18,16 +23,14 @@
   left: 99px;
   background: #FFFFFF;
   border: 2px solid #316099;
-}
+ }
 
 .ellipse2 p {
-  position: absolute;
+  margin: auto;
   width: 14px;
   height: 28px;
-  left: 9px;
-  top:-1px;
   color: #316099;
-  font-family: Gilroy;
+  font-family: Gilroy, sans-serif;
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 0.04em;
@@ -47,23 +50,19 @@
   right: 87px;
 }
 
-.section_header , h1{
-  position: absolute;
-  width: 100%;
+.section_header{
+  background-image: url(../assets/images/Mask_Group.svg);
   height: 12rem;
-  left: 0px;
-  top: 100px;
-  background: linear-gradient(253.6deg, #98D0FC 2.46%, #3481D7 93.24%);
+  margin-top: 130px;
   color: #fff;
   text-align: center;
+  padding-top: 31px;
 }
 
-.section_header h1{
-  position: absolute;
-  top: 180px;
-}
-
-.section_header p {
-  position: relative;
-  top: 240px;
+.section_header  p {
+color: rgba(255, 255, 255, 0.4);
+width: auto;
+height: 60px;
+padding-top: 1rem;
+margin: 0 293px;
 }
