@@ -1,3 +1,6 @@
+.blog {
+
+}
 
 .ellipse {
   width: 2rem;
@@ -33,8 +36,37 @@
   letter-spacing: 0.04em;
   font-weight:bolder;
   }
-.blog img {
+
+.vector_menu li {
+  border-top: 3px solid #316099;
+  width: 24px;
+  margin: 5px;
+  list-style: none;
+  }
+
+.vector_menu {
   position: absolute;
-  top: 48px;
+  top:48px;
   right: 87px;
+}
+
+.section_header , h1{
+  position: absolute;
+  width: 100%;
+  height: 12rem;
+  left: 0px;
+  top: 100px;
+  background: linear-gradient(253.6deg, #98D0FC 2.46%, #3481D7 93.24%);
+  color: #fff;
+  text-align: center;
+}
+
+.section_header h1{
+  position: absolute;
+  top: 180px;
+}
+
+.section_header p {
+    position: relative;
+    top: 240px;
 }
