@@ -1,0 +1,53 @@
+/* nav boshlandi */
+section {
+width: 50%;
+}
+
+.clients_left img {
+    width: 35rem; 
+}
+
+nav h2 {
+    margin: 1rem 0 1rem 0;
+    
+    font-size: 2rem;
+    color: #356EAD;
+    letter-spacing: 4%;
+    line-height: 100%;
+}
+
+nav p {
+    margin-bottom: 1rem;
+    width: 80%;
+    color: #356EAD;
+    line-height: 150%;
+    opacity: 0.6;
+}
+
+aside {
+    width: 50%;
+    align-items: center;
+    padding: 3rem;
+  box-shadow: 0 4px 2rem rgba(0, 0, 0, 0.25);
+  border-radius: 0.5rem;
+}
+
+aside .btn {
+    margin-top: 2rem;
+    padding: 1rem 17.5rem;
+    border:1px solid #356EAD;
+    border-radius: 0.4rem;
+}
+
+.form_container {
+    padding: 4rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 0.5rem 0 2rem 0;
+}
+
+/* nav tugadi */

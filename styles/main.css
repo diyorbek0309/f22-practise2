@@ -127,4 +127,20 @@ header p {
   margin-bottom: 6rem;
 }
 
+.about_item a {
+  color: #5a98d0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about_item_text p:last-child {
+  position: relative;
+  margin-top: 2rem;
+}
+
+.about_item_text span img {
+  position: absolute;
+  left: 6.5rem;
+}
+
 /* Main CSS tugadi */
