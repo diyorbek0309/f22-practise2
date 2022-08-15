@@ -181,4 +181,9 @@ section h3 {
   line-height: 38px;
   letter-spacing: 4%;
 }
+.item1> a{
+  list-style: none;
+  text-decoration: none;
+  color: #1F3F68;
+}
 /* section tugadi */
