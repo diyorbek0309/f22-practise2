@@ -77,9 +77,9 @@ main {
 
 .container {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   flex-flow: row-reverse wrap;
-  margin: 0 0rem 0 7rem;
+  margin: 0 0rem 0 0rem;
 }
 
 section h3 {
@@ -88,7 +88,6 @@ section h3 {
   letter-spacing: 4%;
   color: #356EAD;
   opacity: 0.9;
-  /* margin-left: 12.3rem; */
   margin-top: 3rem;
 }
 .container h2 {
@@ -130,7 +129,7 @@ section h3 {
 }
 
 .blog_img img {
-  width: 35.3rem;
+  width: 33rem;
   height: 23rem;
   padding-left: 3rem;
 }
@@ -143,15 +142,16 @@ section h3 {
   margin: 0 1rem 0 1rem;
   width: 1.3rem;
 }
+
 .icons>.icon_3 img{
   margin: 0 1rem 0 1rem;
   width: 1.3rem;
-}
+} 
 
 .dual{
   display:flex;
   justify-content: center;
-  margin: 0 15rem 0 12rem;
+  margin: 0 11rem 0 13rem;
 }
 .item1{
   display: flex;
@@ -186,4 +186,4 @@ section h3 {
   text-decoration: none;
   color: #1F3F68;
 }
-/* section tugadi */
+
