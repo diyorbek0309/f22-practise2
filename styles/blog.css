@@ -189,3 +189,47 @@ section h3 {
 .heading_line{
   padding: 0 11rem 0 11rem;
 }
+/* article boshlandi */
+.article_section{
+  display: flex;
+  flex-direction: column;
+  padding: 0 11rem 0 11rem;
+  font-family: Galien, sans-serif;
+}
+
+.article_head{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.articles{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+.art_item{
+  display: flex;
+  padding-bottom: 1rem;
+}
+.art_text{
+  position: relative;
+  align-items: center;
+  left: 1.25rem;
+}
+.art_text h3{
+  color: #1f3f68;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 4%
+}
+.art_news_bottom {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.art_author{
+  padding-right: 6rem;
+}
+.art_text p{
+margin-top: 1rem;
+}
