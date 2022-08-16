@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: Gilroy;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url("../assets/fonts/Gilroy-Light.otf");
+}
+
+.footer_wrapper {
+  background-image: url(../assets/images/Rectangle\ 4.svg);
+  background-repeat: no-repeat;
+  color: white;
+  padding-left: 13rem;
+  padding-top: 5rem;
+  position: relative;
+}
+
+.text_item h2 {
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  margin-bottom: 2rem;
+}
+
+.text_item p {
+  margin-right: 37rem;
+  color: rgba(255, 255, 255, 1);
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  line-height: 26px;
+  opacity: 0.6;
+}
+
+.btn {
+  position: absolute;
+  text-align: center;
+  right: 197px;
+  top: 165px;
+  padding: 15px 75px;
+}
+
+.line {
+  border-bottom: 1px solid #fff;
+  opacity: 0.4;
+  margin-right: 197px;
+}
+
+.left_down_item {
+ display: flex;
+ padding-top: 6rem;
+}
+
+.about_list li {
+  margin: 10px 0;
+}
+.contact_list:nth-child(1) {
+ padding-right: 200px;
+}
