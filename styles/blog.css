@@ -171,3 +171,21 @@ section h3 {
   align-items: center;
   margin-top: 1rem;
 }
+.heading_bottom{
+  display: flex;
+  padding: 0 11rem 0 11rem;
+  justify-content: flex-end;
+  font-family: Galien, sans-serif;
+  line-height: 25px;
+  letter-spacing: 2px;
+  color: #356ead;
+  opacity: 0.9;
+}
+
+.heading_bottom h3{
+  margin: 3.3rem 0 1.5rem 0;
+  text-transform: uppercase;
+}
+.heading_line{
+  padding: 0 11rem 0 11rem;
+}
