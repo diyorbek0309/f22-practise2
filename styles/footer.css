@@ -33,6 +33,7 @@
   font-size: 1rem;
   letter-spacing: 0.05em;
   line-height: 26px;
+  opacity: 0.6;
 }
 
 .btn {
@@ -49,12 +50,14 @@
   margin-right: 197px;
 }
 
-.left_item {
- padding-bottom: 6rem;
+.left_down_item {
+ display: flex;
+ padding-top: 6rem;
 }
 
-.left_down_item {
-  display: flex;
-  padding-top: 6rem;
-
+.about_list li {
+  margin: 10px 0;
+}
+.contact_list:nth-child(1) {
+ padding-right: 200px;
 }
