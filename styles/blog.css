@@ -23,6 +23,8 @@
 
 .section_header {
   background-image: url("../assets/images/Mask_Group.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
   padding: 3rem 0;
   display: flex;
