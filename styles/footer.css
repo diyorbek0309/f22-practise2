@@ -21,18 +21,18 @@
 }
 
 .text_item h2 {
-  font-size: 36px;
-  line-height: 46px;
+  font-size: 2.2rem;
+  line-height: 3rem;
   letter-spacing: 0.05em;
   margin-bottom: 2rem;
 }
 
 .text_item p {
   margin-right: 37rem;
-  color: rgba(255, 255, 255, 1);
+  color: #fff;
   font-size: 1rem;
   letter-spacing: 0.05em;
-  line-height: 26px;
+  line-height: 1.7rem;
   opacity: 0.6;
 }
 
@@ -51,15 +51,21 @@
 }
 
 .left_down_item {
- display: flex;
- padding-top: 6rem;
- }
+  display: grid;
+  grid-template-columns: 40% 25% 25%;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
 .left_item{
   padding-bottom: 6rem;
 }
 .about_list li {
-  margin: 10px 0;
+  margin: 1rem 0;
 }
-.contact_list:nth-child(1) {
- padding-right: 12rem;
+
+.left_down_item h2 {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 2rem;
+  letter-spacing: 0.05em;
 }
