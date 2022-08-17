@@ -58,6 +58,7 @@ footer a {
   text-decoration: none;
   color: #fff;
 }
+
 .left_down_item h2 {
   font-size: 20px;
   line-height: 30px;
@@ -77,4 +78,8 @@ footer a {
 .logo_column_list {
   display: grid;
   row-gap: 10px;
+}
+
+footer li {
+  list-style: none;
 }
