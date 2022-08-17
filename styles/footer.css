@@ -53,11 +53,13 @@
 .left_down_item {
  display: flex;
  padding-top: 6rem;
+ }
+.left_item{
+  padding-bottom: 6rem;
 }
-
 .about_list li {
   margin: 10px 0;
 }
 .contact_list:nth-child(1) {
- padding-right: 200px;
+ padding-right: 12rem;
 }
