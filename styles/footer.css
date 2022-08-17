@@ -76,5 +76,18 @@ a {
 
 .about_contact li {
   padding-bottom: 1.5rem;
-
 }
+
+.about_contact{
+  display: grid;
+  grid-template-columns: 4rem auto;
+}
+
+.logo_column_list {
+  display: grid;
+  row-gap: 10px;
+}
+
+/* .logo_column_list:first-child {
+ padding-bottom: 10rem;
+} */
