@@ -56,9 +56,7 @@
   padding-top: 6rem;
   padding-bottom: 4rem;
 }
-.left_item{
-  padding-bottom: 6rem;
-}
+
 .about_list li {
   margin: 1rem 0;
 }
@@ -87,7 +85,3 @@ a {
   display: grid;
   row-gap: 10px;
 }
-
-/* .logo_column_list:first-child {
- padding-bottom: 10rem;
-} */
