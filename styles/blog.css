@@ -233,3 +233,26 @@ section h3 {
 .art_text p{
 margin-top: 1rem;
 }
+.control {
+  position: relative;
+  top:3.3rem;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Gilroy';
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #356EAD;
+}
+.next_btn_left{
+  display: flex;
+}
+.next_btn_left>img{
+  padding-right: 1.2rem;
+}
+.next_btn_right{
+  display: flex;
+}
+.next_btn_right>img{
+  padding-left: 1.2rem;
+}
