@@ -7,39 +7,71 @@
     <title>Document</title>
     <link rel="stylesheet" href="../styles/main.css" />
     <link rel="stylesheet" href="../styles/contact.css" />
+    <link rel="stylesheet" href="../styles/blog.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
   </head>
   <body>
-    <!-- nav boshlandi -->
-    <nav>
-      <section>
-        <div class="clients_left">
-          <img src="../assets/images/image1.png" alt="image1" />
-          <div class="clients_left_text">
+    <div class="blog">
+      <nav>
+        <div class="logo">
+          <img src="../assets/images/logo.svg" alt="Logo" />
+        </div>
+        <ul class="menu">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li><a href="/blog.html">Blog</a></li>
+        </ul>
+      </nav>
+      <div class="section_header">
+        <h1>Contact us</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+    </div>
+
+    <!-- aside boshlandi -->
+    <main>
+      <div class="aside_left">
+        <img src="../assets/images/contact_illus.svg" alt="image1" />
+        <div class="clients_left_text">
+          <div class="contact_address">
             <h2>ADDRESS</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </div>
+          <div class="contact_phone">
             <h2>PHONE</h2>
             <p>
-              <a href="tel:999-888-777-666">999-888-777-666</a>
+              <img src="../assets/images/phone.svg" alt="Phone Icon" />
+              <a href="tel:999-888-777-666">+999-888-77-66</a>
             </p>
             <p>
-              <a href="tel:555-444-333-222">555-444-333-222</a>
+              <img src="../assets/images/phone.svg" alt="Phone Icon" />
+              <a href="tel:555-444-333-222">+555-444-33-22</a>
             </p>
+          </div>
 
-            <h2>ONLINE SERVIS</h2>
+          <div class="contact_online_service">
+            <h2>ONLINE service</h2>
             <p>
+              <img src="../assets/images/earth.svg" alt="Earth Icon" />
               <a href="https://www.afrianska.com"> www.afrianska.com</a>
             </p>
             <p>
+              <img src="../assets/images/envelope.svg" alt="Envelope Icon" />
               <a href="https://www.afrianska.com"> www.afrianska.com</a>
             </p>
           </div>
         </div>
-      </section>
-      <aside>
+      </div>
+
+      <div class="aside_right">
         <div class="form_container">
-          <h2>SEND US MESSAGE</h2>
           <form action="#" method="get">
-            <label for="FullName">FullName</label>
+            <h2>SEND US MESSAGE</h2>
+            <label for="FullName">Full Name</label>
             <input type="text" id="FullName" placeholder="FullName" />
             <label for="Email">Email</label>
             <input type="text" id="Email" placeholder="Email" />
@@ -48,13 +80,84 @@
               id="Message"
               name="Message"
               placeholder="Message"
+              rows="6"
             ></textarea>
             <button class="btn">SUBMIT</button>
           </form>
         </div>
-      </aside>
-    </nav>
+      </div>
+      <div class="aside_bottom">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95925.51709077595!2d69.2649984!3d41.2942336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef7e2f1d90e45%3A0x24e3caaa0efb6eb!2z0JDRjdGA0L7Qv9C-0YDRgg!5e0!3m2!1sru!2s!4v1656308804295!5m2!1sru!2s"
+          style="border: 0"
+          allowfullscreen="true"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </main>
 
-    <!-- nav tugadi -->
+    <!-- Footer boshlandi -->
+
+    <footer>
+      <div class="footer_wrapper">
+        <div class="left_item">
+          <div class="text_item">
+            <h2>
+              Intersted to woek <br />
+              with our team?
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
+          <button class="btn">Let's Talk</button>
+        </div>
+        <div class="line"></div>
+        <div class="left_down_item">
+          <div class="about_contact">
+            <p><img src="../assets/images/Group.svg" alt="Logo" /></p>
+            <h2>Afrianska</h2>
+            <ul class="logo_column_list">
+              <li>A.</li>
+              <li>T.</li>
+              <li>E.</li>
+            </ul>
+            <ul class="contact_list">
+              <li>
+                Lorem ipsum dolor sit amet,<br />
+                consectetur adipisicing elit.
+              </li>
+              <li>+62-812-7313-4321</li>
+              <li>hello.afrian@gmail.com</li>
+            </ul>
+          </div>
+          <div class="about_us">
+            <h2>About US</h2>
+            <ul class="about_list">
+              <li><a href="">About</a></li>
+              <li><a href="">What We Do</a></li>
+              <li><a href="">Project</a></li>
+              <li><a href="">How It Work With Us</a></li>
+            </ul>
+          </div>
+          <div class="right_down_item">
+            <h2>Follow US</h2>
+            <ul class="about_list">
+              <li><a href="/">Instagram</a></li>
+              <li><a href="/">Facebook</a></li>
+              <li><a href="/">LinkedIn</a></li>
+              <li><a href="/">Youtube</a></li>
+            </ul>
+          </div>
+        </div>
+        <p style="opacity: 0.4">© Afrianska. All rights reserved.</p>
+        <br />
+      </div>
+    </footer>
+
+    <!-- Footer tugadi -->
   </body>
 </html>

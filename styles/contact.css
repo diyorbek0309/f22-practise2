@@ -1,53 +1,112 @@
-/* nav boshlandi */
-section {
-width: 50%;
+/* main boshlandi */
+main {
+  padding: 3.5rem 12rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.clients_left img {
-    width: 35rem; 
+.aside_right {
+  width: 56%;
 }
 
-nav h2 {
-    margin: 1rem 0 1rem 0;
-    
-    font-size: 2rem;
-    color: #356EAD;
-    letter-spacing: 4%;
-    line-height: 100%;
+.aside_right form {
+  padding: 3rem;
+  box-shadow: 5px 0.6rem 3rem rgba(16, 112, 177, 0.2);
+  width: 100%;
+  box-sizing: border-box;
 }
 
-nav p {
-    margin-bottom: 1rem;
-    width: 80%;
-    color: #356EAD;
-    line-height: 150%;
-    opacity: 0.6;
+main h2 {
+  margin: 0 0 1.5rem 0;
+  font-size: 1.3rem;
+  color: #1f3f68;
+  letter-spacing: 4%;
+  line-height: 150%;
+  text-transform: uppercase;
 }
 
-aside {
-    width: 50%;
-    align-items: center;
-    padding: 3rem;
-  box-shadow: 0 4px 2rem rgba(0, 0, 0, 0.25);
+.aside_right form label {
+  color: #1f3f68;
+  opacity: 0.8;
+  font-size: 1rem;
+  line-height: 200%;
+}
+
+main p {
+  margin-bottom: 1rem;
+  width: 80%;
+  color: #356ead;
+  line-height: 150%;
+  opacity: 0.6;
+}
+
+main .btn {
+  width: 100%;
+  margin-top: 2rem;
+  border: 1px solid #356ead;
+  border-radius: 0.4rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1rem;
   border-radius: 0.5rem;
+  margin: 0.5rem 0 2rem 0;
+  border: 1px solid #356ead;
+  outline: none;
+  box-sizing: border-box;
 }
 
-aside .btn {
-    margin-top: 2rem;
-    padding: 1rem 17.5rem;
-    border:1px solid #356EAD;
-    border-radius: 0.4rem;
+.aside_left {
+  width: 40%;
+  padding: 3.5rem 0;
 }
 
-.form_container {
-    padding: 4rem;
+.aside_left img {
+  width: 90%;
 }
 
-input, textarea {
-    width: 100%;
-    padding: 2rem;
-    border-radius: 1rem;
-    margin: 0.5rem 0 2rem 0;
+.contact_address {
+  margin-top: 4rem;
 }
 
-/* nav tugadi */
+.contact_phone {
+  margin: 2.5rem 0;
+}
+
+.contact_phone img,
+.contact_online_service img {
+  width: 1.5rem;
+}
+
+.contact_phone a,
+.contact_online_service a {
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 150%;
+  color: #1f3f68;
+}
+
+.contact_phone p,
+.contact_online_service p {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_phone p {
+  width: 44%;
+}
+
+.aside_bottom {
+  width: 100%;
+}
+
+.aside_bottom iframe {
+  width: 100%;
+  height: 30rem;
+}
+
+/* main tugadi */
