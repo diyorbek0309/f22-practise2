@@ -4,7 +4,7 @@
 }
 
 .footer_wrapper {
-  background-image: url(../assets/images/Rectangle\ 4.svg);
+  background-image: url("../assets/images/Rectangle\ 4.svg");
   background-repeat: no-repeat;
   color: white;
   padding-left: 13rem;
@@ -32,9 +32,9 @@
 footer .btn {
   position: absolute;
   text-align: center;
-  right: 197px;
-  top: 165px;
-  padding: 15px 75px;
+  right: 12rem;
+  top: 10rem;
+  padding: 1rem 4.5rem;
 }
 
 .line {
@@ -60,8 +60,8 @@ footer a {
 }
 
 .left_down_item h2 {
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 1.3rem;
+  line-height: 150%;
   margin-bottom: 2rem;
   letter-spacing: 0.05em;
 }
@@ -99,45 +99,53 @@ footer li {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1000.98px) {
-  html {
-    font-size: 12px;
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .footer_wrapper {
+    padding-left: 8rem;
   }
 }
 
-@media (min-width: 480px) and (max-width: 767px) {
-  html {
-    font-size: 12px;
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer_wrapper {
+    padding-left: 5rem;
   }
+  footer .btn {
+    right: 5rem;
+    top: 165px;
+  }
+  .text_item p {
+    margin-right: 20rem;
+  }
+  .left_down_item {
+    grid-template-columns: 40% 25% 35%;
+    column-gap: 2rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
   footer .btn {
     display: none;
   }
   .text_item h2 {
-    line-height: 3rem;
-    letter-spacing: 0.05em;
-    margin-bottom: 2rem;
-    margin-left: 3rem;
+    margin-top: 2rem;
   }
   .text_item {
-    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    align-content: center;
+    text-align: center;
   }
   .text_item p {
     margin-right: 0;
-    width: 50%;
+    width: 80%;
     margin-bottom: 2rem;
   }
 
   .left_down_item {
     display: flex;
-    align-content: center;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 3rem 0;
   }
 
   .logo_column_list {
@@ -150,10 +158,15 @@ footer li {
   .footer_wrapper {
     padding: 0;
   }
-
+  .about_list li:first-child {
+    margin-top: 0;
+  }
   .left_down_item h2,
   .about_contact p img,
   .about_us {
     display: none;
+  }
+  .line {
+    margin-right: 0;
   }
 }
