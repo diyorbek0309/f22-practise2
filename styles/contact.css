@@ -110,3 +110,59 @@ textarea {
 }
 
 /* main tugadi */
+
+/* Media queries */
+
+@media screen and (min-width: 768px) and (max-width: 908px) {
+  html {
+    font-size: 14px;
+  }
+
+  main {
+  padding: 1.5rem 6rem;
+  
+}
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  
+  main {
+  padding: 1.5rem 6rem;
+  flex-direction: column;
+}
+
+.aside_left {
+  width: 100%;
+}
+
+main h2 {
+  text-align: center;
+}
+
+main p {
+  width: 100%; 
+}
+
+.phone {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.contact_phone,
+.contact_online_service {
+  margin: 0.5rem 0;
+}
+
+.contact_phone p {
+  width: 100%;
+}
+
+.aside_right {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.aside_bottom iframe {
+  height: 20rem;
+}
+}
