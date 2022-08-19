@@ -95,7 +95,7 @@ header p {
 /* Main CSS boshlandi */
 
 .about {
-  padding: 12rem 8rem 10rem 15rem;
+  padding: 8rem 8rem 8rem 15rem;
   display: flex;
   justify-content: space-between;
 }
