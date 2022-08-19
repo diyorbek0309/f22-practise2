@@ -257,3 +257,27 @@ section h3 {
 .next_btn_right > img {
   padding-left: 1.2rem;
 }
+@media screen and (max-width: 680px) {
+  
+  .news_img img{
+    display: none;
+    
+  }
+  .popular h2{
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 580px) {
+  body, .news>h3{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width:880px){
+  .art_img>img{
+    width: 98%;
+  }
+  .art_text h3,p{
+    font-size: 14px;
+  }
+}
+
