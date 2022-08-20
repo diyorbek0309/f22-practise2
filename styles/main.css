@@ -95,7 +95,7 @@ header p {
 /* Main CSS boshlandi */
 
 .about {
-  padding: 12rem 8rem 10rem 15rem;
+  padding: 8rem 8rem 8rem 15rem;
   display: flex;
   justify-content: space-between;
 }
@@ -118,6 +118,9 @@ header p {
 }
 
 .about_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 3rem;
   box-shadow: 0 4px 1rem rgba(0, 0, 0, 0.25);
   border-radius: 0.5rem;
@@ -144,3 +147,115 @@ header p {
 }
 
 /* Main CSS tugadi */
+
+/* Media queries */
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  header {
+    padding: 1.5rem 2rem 1.5rem 5rem;
+  }
+  header .right img {
+    width: 28rem;
+  }
+  header p {
+    width: 90%;
+  }
+
+  .about {
+    padding: 8rem 5rem 6rem 7.5rem;
+  }
+  .about_left .title {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  html {
+    font-size: 14px;
+  }
+  header {
+    padding: 1.5rem 2rem 1.5rem 5rem;
+  }
+  header .right img {
+    width: 25rem;
+  }
+  header p {
+    width: 100%;
+  }
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  .about {
+    padding: 6rem 5rem 6rem 5rem;
+  }
+  .about_left .about_item {
+    width: 70%;
+  }
+  .about_left .title {
+    width: 60%;
+  }
+  .about_left {
+    width: 55%;
+  }
+  .about_right {
+    width: 45%;
+  }
+  .about_item {
+    padding: 2rem;
+  }
+  .about_item > img {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+  header {
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    text-align: center;
+  }
+  header .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header .right img {
+    display: none;
+  }
+  header p {
+    width: 100%;
+  }
+  header h1 {
+    width: 80%;
+    font-size: 2.5rem;
+  }
+
+  .about {
+    padding: 3rem;
+  }
+  .about_left .about_item {
+    width: 65%;
+  }
+  .about_left .title {
+    width: 75%;
+  }
+  .about_left {
+    width: 55%;
+  }
+  .about_right {
+    width: 45%;
+  }
+  .about_item {
+    padding: 1.5rem;
+  }
+  .about_item > img {
+    width: 90%;
+  }
+  .about_item_text span img {
+    left: 6.5rem;
+    width: 1.5rem;
+  }
+}
