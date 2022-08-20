@@ -1,11 +1,11 @@
 @font-face {
   font-family: Gilroy;
-  src: url("../assets/fonts/Gilroy-Light.otf");
+  src: url('../assets/fonts/Gilroy-Light.otf');
 }
 
 @font-face {
   font-family: Galien;
-  src: url("../assets/fonts/Galien\ Regular.ttf");
+  src: url('../assets/fonts/Galien\ Regular.ttf');
 }
 
 .vector_menu li {
@@ -22,7 +22,7 @@
 }
 
 .section_header {
-  background-image: url("../assets/images/Mask_Group.svg");
+  background-image: url('../assets/images/Mask_Group.svg');
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -257,27 +257,90 @@ section h3 {
 .next_btn_right > img {
   padding-left: 1.2rem;
 }
-@media screen and (max-width: 680px) {
-  
-  .news_img img{
-    display: none;
-    
+@media (min-width: 768px) and (max-width: 960px) {
+  .container {
+    padding: 0 7rem 0 9rem;
   }
-  .popular h2{
+  .news_text {
+    width: 85%;
+  }
+  .heading_bottom {
+    padding: 0 7rem 0 9rem;
+  }
+  .news > h3 {
+    font-size: 1.9rem;
+  }
+  .article_section {
+    padding: 0 7rem 7rem 9rem;
+  }
+  .art_text h3 {
     font-size: 1.8rem;
   }
 }
-@media screen and (max-width: 580px) {
-  body, .news>h3{
-    font-size: 12px;
+@media (min-width: 556px) and (max-width: 767px) {
+  .container {
+    padding: 0 6rem 0 8rem;
+  }
+  .news_img img {
+    display: none;
+  }
+  .news_text {
+    width: 80%;
+  }
+  .heading_bottom {
+    padding: 0 5rem 0 8rem;
+  }
+  .news > h3 {
+    font-size: 1.8rem;
+  }
+  .article_section {
+    padding: 0 5rem 6rem 8rem;
+  }
+  .art_text h3 {
+    font-size: 1.7rem;
+    line-height: 24px;
+  }
+  .art_img > img {
+    width: 200px;
+    height: 150px;
+  }
+  .popular h2 {
+    font-size: 1.7rem;
+    letter-spacing: 0.02em;
+    line-height: 90%;
   }
 }
-@media screen and (max-width:880px){
-  .art_img>img{
-    width: 98%;
+@media (min-width: 481px) and (max-width: 555px) {
+  .popular h2 {
+    font-size: 1.6rem;
+    letter-spacing: 0.02em;
+    line-height: 80%;
   }
-  .art_text h3,p{
-    font-size: 14px;
+  .container {
+    padding: 0 5rem 0 7rem;
+  }
+  .news_img img {
+    display: none;
+  }
+  .news_text {
+    width: 75%;
+  }
+  .heading_bottom {
+    padding: 0 5rem 0 7rem;
+  }
+  .news > h3 {
+    font-size: 1.5rem;
+    line-height: 24px;
+  }
+  .article_section {
+    padding: 0 5rem 6rem 7rem;
+  }
+  .art_text h3 {
+    font-size: 1.5rem;
+    line-height: 20px;
+  }
+  .art_img > img {
+    width: 200px;
+    height: 150px;
   }
 }
-
